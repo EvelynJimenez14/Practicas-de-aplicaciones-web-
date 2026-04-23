@@ -4,17 +4,30 @@ import { createRoot } from 'react-dom/client';
 class Application extends React.Component {
   render() {
     return (
+
       <div>
+        <h1>Formulario de Registro</h1>
         <form method="get" action="http://localhost:8080/Action">
 
           <fieldset>
             <legend>Datos Personales</legend>
 
             <label htmlFor="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" /><br />
+            <input type="text" id="nombre" name="nombre" required /><br />
 
             <label htmlFor="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" /><br />
+            <input type="text" id="apellido" name="apellido" required /><br />
+
+            <label htmlFor="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" /><br />
+
+            <label htmlFor="genero">Género:</label>
+            <select id="genero" name="genero">
+              <option value="femenino">Femenino</option>
+              <option value="masculino">Masculino</option>
+              <option value="otro">Otro</option>
+            </select><br />
+
 
             <label htmlFor="correo">Correo electronico:</label>
             <input type="email" id="correo" name="correo" /><br />
@@ -32,6 +45,8 @@ class Application extends React.Component {
 
           <fieldset>
             <legend>Informacion Academica</legend>
+            <label htmlFor="boleta">Boleta:</label>
+            <input type="text" id="boleta" name="boleta" required /><br />
 
             <label htmlFor="carrera">Carrera:</label>
             <select id="carrera" name="carrera">
