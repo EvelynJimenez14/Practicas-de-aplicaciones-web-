@@ -26,6 +26,8 @@ app.get("/Action", (request, response) => {
 
     const nombre = q.nombre || '';
     const apellido = q.apellido || '';
+    const fecha = q.fecha || '';
+    const genero = q.genero || '';
     const correo = q.correo || '';
     const ciudad = q.ciudad || '';
     const carrera = q.carrera || '';
@@ -55,6 +57,14 @@ app.get("/Action", (request, response) => {
             <tr>
                 <td>Apellido</td>
                 <td>${escaparHTML(apellido)}</td>
+            </tr>
+            <tr>
+                <td>Fecha de nacimiento</td>
+                <td>${escaparHTML(fecha)}</td>
+            </tr>
+            <tr>
+                <td>Genero</td>
+                <td>${escaparHTML(genero)}</td>
             </tr>
             <tr>
                 <td>Correo electronico</td>
