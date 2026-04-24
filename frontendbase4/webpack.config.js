@@ -11,9 +11,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './plantilla/index.html', // Ruta plantilla HTML
+      template: './plantilla/index.html',
       path: path.resolve(__dirname, '../backendbase4/public'),
-      filename: 'index.html', // Nombre del archivo de salida
+      filename: 'index.html',
     })
   ],
   module: {
@@ -24,6 +24,10 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
       }
     ]
   },
@@ -31,9 +35,9 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'dist'),
     },
-    port: 3000, // Puerto del servidor
-    open: true, // Abrir navegador automáticamente
-    hot: true, // Habilitar Hot Module Replacement (HMR)
-    historyApiFallback: true, // Aplicaciones SPA
+    port: 3000,
+    open: true,
+    hot: true,
+    historyApiFallback: true,
   }
 }
