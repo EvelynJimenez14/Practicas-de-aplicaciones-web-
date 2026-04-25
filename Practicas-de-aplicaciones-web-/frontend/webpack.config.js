@@ -5,14 +5,14 @@ module.exports = {
   mode: "development",
   entry: "./src/Aplicacion.jsx",
   output: {
-    path: path.resolve(__dirname, '../backendbase4/public'),
+    path: path.resolve(__dirname, '../backend/public'),
     filename: "main.js",
     clean: true
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './plantilla/index.html',
-      path: path.resolve(__dirname, '../backendbase4/public'),
+      path: path.resolve(__dirname, '../backend/public'),
       filename: 'index.html',
     })
   ],
