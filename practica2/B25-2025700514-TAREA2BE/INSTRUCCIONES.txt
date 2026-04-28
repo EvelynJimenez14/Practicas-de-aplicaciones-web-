@@ -1,0 +1,46 @@
+# B25-2025700514-TAREA2 - Práctica 2
+
+## Front-End
+Carpeta: `B25-2025700514-TAREA2FE`
+
+Scripts requeridos:
+```bash
+npm run build
+npm start
+```
+
+El Front-End usa:
+- React
+- Webpack
+- Babel
+- HtmlWebpackPlugin
+- devServer
+
+El comando `npm run build` genera:
+- `../B25-2025700514-TAREA2BE/public/index.html`
+- `../B25-2025700514-TAREA2BE/public/main.js`
+
+## Back-End
+Carpeta: `B25-2025700514-TAREA2BE`
+
+Script requerido:
+```bash
+npm start
+```
+
+El servidor usa:
+- Express.js
+- Archivo de inicio: `Application.js`
+- Puerto: `8080`
+- Caché deshabilitado desde NodeJS
+
+## URLs de prueba
+- http://localhost:8080
+- http://127.0.0.1:8080
+
+## Flujo
+1. Entra a `B25-2025700514-TAREA2FE` y ejecuta `npm run build`.
+2. Entra a `B25-2025700514-TAREA2BE` y ejecuta `npm start`.
+3. Abre `http://localhost:8080`.
+4. Llena el formulario y presiona enviar.
+5. El Back-End muestra los datos recuperados en una página dinámica.
