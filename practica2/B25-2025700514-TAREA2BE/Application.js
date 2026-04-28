@@ -156,5 +156,5 @@ app.get("/Action", (request, response) => {
 
 app.listen(puerto, () => {
   console.log("Servidor Express ejecutándose en http://localhost:" + puerto);
-  console.log("También disponible en http://127.0.0.1:" + puerto);
+
 });
