@@ -90,8 +90,8 @@ class Application extends React.Component {
       <>
         <style>{estilos}</style>
         <header className="encabezado">
-          <h1>Formulario de Registro</h1>
-          <p>Aplicación Web REST con React, Webpack, Babel y Express.js</p>
+          <h1>ESCOM</h1>
+          <p>Estos datos seran usados con fines académicos</p>
         </header>
 
         <main className="contenedor-principal">
@@ -150,27 +150,28 @@ class Application extends React.Component {
                   <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
                 </div>
 
-                <button type="submit">Enviar datos al Back-End</button>
+                <button type="submit">Enviar</button>
               </form>
             </article>
           </section>
 
           <aside className="panel-lateral">
-            <h3>Etiquetas HTML5 utilizadas</h3>
+            <h3>Novedades</h3>
             <ul>
-              <li>&lt;header&gt;</li>
-              <li>&lt;main&gt;</li>
-              <li>&lt;section&gt;</li>
-              <li>&lt;article&gt;</li>
-              <li>&lt;aside&gt;</li>
-              <li>&lt;footer&gt;</li>
+              <li>&lt;Desalojo de CRUD&gt;</li>
+              <li>&lt;Consulta Becas&gt;</li>
+              <li>&lt;Mega Puente &gt;</li>
+              <li>&lt;21 de mayo día del Politécnico&gt;</li>
+              <li>&lt;México sede del Mundial&gt;</li>
+              <li>&lt;Evento Cultural&gt;</li>
             </ul>
-            <p>Al enviar el formulario, Express.js recupera los parámetros y genera una página dinámica.</p>
+            <p>Novedades del mes de mayo.</p>
           </aside>
         </main>
 
         <footer className="pie">
-          <p>Práctica 2 | Front-End React montado en Back-End Express | Puerto 8080</p>
+          <p>© 2026 Escuela Superior de Cómputo - IPN</p>
+          <p>Av. Juan de Dios Bátiz s/n, Col. Lindavista, CDMX</p>
         </footer>
       </>
     );

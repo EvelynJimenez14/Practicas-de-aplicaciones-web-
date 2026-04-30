@@ -109,8 +109,9 @@ app.get("/Action", (request, response) => {
 </head>
 <body>
   <header>
-    <h1>Datos recuperados por el Back-End</h1>
-    <p>Respuesta dinámica generada con Express.js en el puerto 8080.</p>
+    <h1>Formulario Académico ESCOM</h1>
+    <p>Contestar las preguntas. Estos datos serán usados con fines académicos.</p>
+    <h2>Escuela Superior de Cómputo - Instituto Politécnico Nacional</h2>
   </header>
 
   <main>
@@ -148,7 +149,8 @@ app.get("/Action", (request, response) => {
   </main>
 
   <footer>
-    <p>Back-End Express.js | Archivo Application.js | Puerto 8080</p>
+    <p>© 2026 Escuela Superior de Cómputo - Instituto Politécnico Nacional</p>
+    <p>Av. Juan de Dios Bátiz s/n, Col. Lindavista, CDMX</p>
   </footer>
 </body>
 </html>`);
