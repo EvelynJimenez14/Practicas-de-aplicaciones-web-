@@ -74,7 +74,8 @@ app.get("/Action", (request, response) => {
       border-left: 6px solid #6A0F1B;
       padding-left: 16px;
     }
-    h2, h3 { color: #6A0F1B; margin-top: 0; }
+    h2 { color: #000000; margin-top: 0; }
+    h3 { color: #6A0F1B; margin-top: 0; }
     table {
       width: 100%;
       border-collapse: collapse;
@@ -135,17 +136,18 @@ app.get("/Action", (request, response) => {
     </section>
 
     <aside>
-      <h3>Estructura semántica utilizada</h3>
-      <p>Esta respuesta utiliza las etiquetas solicitadas por la práctica:</p>
+      <h3>Novedades académicas y culturales ESCOM</h3>
+      <p>Información reciente de interés para la comunidad politécnica:</p>
       <ul>
-        <li>&lt;header&gt;</li>
-        <li>&lt;main&gt;</li>
-        <li>&lt;section&gt;</li>
-        <li>&lt;article&gt;</li>
-        <li>&lt;aside&gt;</li>
-        <li>&lt;footer&gt;</li>
+        <li>Convocatoria abierta para becas institucionales</li>
+        <li>Recordatorio: el 21 de mayo se celebra el Día del Politécnico</li>
+        <li>Próximo mega puente académico en el calendario escolar</li>
+        <li>Evento cultural en el auditorio de ESCOM</li>
+        <li>Conferencia sobre innovación tecnológica organizada por profesores</li>
+        <li>México confirmado como sede del próximo Mundial</li>
       </ul>
-    </aside>
+   </aside>
+
   </main>
 
   <footer>
