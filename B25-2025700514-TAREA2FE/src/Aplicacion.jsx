@@ -158,13 +158,16 @@ class Application extends React.Component {
           <aside className="panel-lateral">
             <h3>Novedades</h3>
             <ul>
-              <li>&lt;Desalojo de CRUD&gt;</li>
-              <li>&lt;Consulta Becas&gt;</li>
-              <li>&lt;Mega Puente &gt;</li>
-              <li>&lt;21 de mayo día del Politécnico&gt;</li>
-              <li>&lt;México sede del Mundial&gt;</li>
-              <li>&lt;Evento Cultural&gt;</li>
+              <li><a href="https://www.escom.ipn.mx" target="_blank">ESCOM - Página Oficial</a></li>
+              <li>Desalojo de CRUD</li>
+              <li>Consulta Becas</li>
+              <li>Mega Puente</li>
+              <li>21 de mayo día del Politécnico</li>
+              <li>México sede del Mundial</li>
+              <li>Evento Cultural</li>
             </ul>
+
+
             <p>Novedades del mes de mayo.</p>
           </aside>
         </main>
