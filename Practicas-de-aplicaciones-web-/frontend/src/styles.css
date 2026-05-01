@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #f8f3f3;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    background: #750946;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.header p {
+    margin-top: 8px;
+    color: #f0f0f0;
+    font-size: 14px;
+}
+
+.form {
+    padding: 30px;
+}
+
+.fieldset {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.legend {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #750946;
+    padding: 0 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100%;
+    padding: 16px;
+    background-color: #750946;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #5a0735;
+}
